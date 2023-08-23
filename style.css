@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(to left bottom, #90ee90, #add8e6);
+    min-height: 100vh;
+    font-family: monospace;
+    color: #008b8b;
+}
+
+#fa {
+    font-weight: 600;
+    margin: 30px;
+    font-size: 50px;
+    padding: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+form {
+    background-color: #ffffff4d;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    max-width: 50%;
+    margin: auto;
+}
+
+#tempCalc label {
+    font-size: 25px;
+}
+
+.btn {
+    width: 50%;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.output {
+    padding: 10px;
+}
+
+.footer{
+    text-align: center;
+    margin: 35px;
+}
